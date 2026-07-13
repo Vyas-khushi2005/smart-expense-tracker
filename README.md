@@ -26,7 +26,7 @@ frontend/
 https://github.com/Vyas-khushi2005
 
 ## LinkedIn
-(Your LinkedIn Profile URL)
+https://linkedin.com/in/khushi-vyas2005
 
 ## Author
 Khushi Vyas
