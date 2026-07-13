@@ -1,0 +1,130 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.app-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+input, select, button {
+  padding: 12px;
+  margin: 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+button {
+  background: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff4757;
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+th {
+  background: rgba(255,255,255,0.2);
+}
+
+.deleteBtn, .editBtn {
+  background: #3498db;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.deleteBtn:hover { background: #e74c3c; }
+.editBtn:hover { background: #2ecc71; }
+
+#emptyState {
+  color: #ddd;
+  font-style: italic;
+}
+
+#messageBox {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Modal Styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 15% auto;
+  text-align: center;
+}
+
+.modal-content button {
+  margin: 10px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+#confirmDelete { background: #e74c3c; color: #fff; }
+#cancelDelete { background: #2ecc71; color: #fff; }
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0,0,0,0.3);
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-icons a:hover {
+  text-decoration: underline;
+}

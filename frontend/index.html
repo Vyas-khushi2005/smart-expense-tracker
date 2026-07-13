@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>💎 Smart Expense Tracker</h1>
+
+    <!-- Search Box -->
+    <input type="text" id="searchBox" placeholder="🔍 Search expenses..." />
+
+    <!-- Form -->
+    <form id="expenseForm" class="glass-card">
+      <input type="text" id="desc" placeholder="✨ Enter description" required>
+      <input type="number" id="amount" placeholder="💵 Enter amount" required>
+      <select id="category">
+        <option value="Food">🍔 Food</option>
+        <option value="Travel">🚌 Travel</option>
+        <option value="Shopping">🛍 Shopping</option>
+        <option value="Other">📌 Other</option>
+      </select>
+      <button type="submit">➕ Add Expense</button>
+    </form>
+
+    <!-- Success/Error Messages -->
+    <div id="messageBox"></div>
+
+    <!-- Table -->
+    <div class="glass-card">
+      <table id="expenseTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <p id="emptyState">No expenses added yet.</p>
+    </div>
+
+    <!-- Summary -->
+    <div id="summaryBox" class="glass-card">
+      <h3>Total Expenses: <span id="summary">₹0</span></h3>
+    </div>
+  </div>
+
+  <!-- Custom Delete Modal -->
+  <div id="deleteModal" class="modal">
+    <div class="modal-content">
+      <p>⚠️ Are you sure you want to delete this expense?</p>
+      <button id="confirmDelete">Yes, Delete</button>
+      <button id="cancelDelete">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© <span id="year"></span> Smart Expense Tracker | Track smart, spend wise ✨</p>
+    <div class="social-icons">
+      <a href="#">🌐 GitHub</a> | 
+      <a href="#">💼 LinkedIn</a> | 
+      <a href="#">📸 Instagram</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
