@@ -23,6 +23,8 @@ frontend/
 ```
 ## Project Screenshots
 
+![Smart Tracker System](screenshots/SmartTrackerSystem.png)
+
 
 ## GitHub
 https://github.com/Vyas-khushi2005
