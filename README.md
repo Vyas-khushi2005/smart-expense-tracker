@@ -21,6 +21,8 @@ frontend/
 │── style.css
 │── script.js
 ```
+## Project Screenshots
+
 
 ## GitHub
 https://github.com/Vyas-khushi2005
